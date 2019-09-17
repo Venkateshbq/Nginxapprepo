@@ -1,8 +1,8 @@
 # Change these
 server '172.31.20.0', port: 80, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@example.com:username/appname.git'
-set :application,     'appname'
+set :repo_url,        'git@github.com:Venkateshbq/nginxapp.git'
+set :application,     'nginxapp'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
